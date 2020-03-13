@@ -1,4 +1,6 @@
 import React from 'react';
+import './Form.scss';
+import logo from './../img/giftrology-logo.png'
 
 class Form extends React.Component {
     constructor(props) {
@@ -17,7 +19,6 @@ class Form extends React.Component {
         () =>{
             this.props.getSign(this.state.value)
         })
-        
     }
 
     handleSubmit(event){
@@ -29,10 +30,12 @@ class Form extends React.Component {
         //const signe = this.state.signe;
         return(
             <div className="Form">
+                <div id="logo">
+                    <img src={logo}/>
+                </div>
             <form onSubmit={this.handleSubmit}>
                 <label>
-                    Choisissez votre signe astrologique
-                    <select value={this.state.value} onChange={this.handleChange}>
+                    <select class="select-css" value={this.state.value} onChange={this.handleChange}>
                         <option value="-" selected>Choisissez votre signe</option>
                         <option value="aries">Bélier</option>
                         <option value="taurus">Taureau</option>
@@ -48,14 +51,10 @@ class Form extends React.Component {
                         <option value="pisces">Poissons</option>
                     </select>
                 </label>
-                <input type="submit" value="Submit"/>
             </form>
             </div>
         );
     }
-
-
-
 }
 
 export default Form;

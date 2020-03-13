@@ -1,0 +1,38 @@
+@import 'font.scss';
+
+#logo2 {
+    width: 324px;
+    height: 68px;
+    margin-top:3vh;
+    margin-left:2vw;
+}
+
+#gifContain {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#gif1,  #gif2, #gif3{
+    background-color:white;
+    height:25vw;
+    width:25vw;
+}
+
+h1 {
+    text-align:center;
+    font-family: PlayfairDisplay, serif;
+    color:white;
+    font-weight: 700;
+    font-size:50px;
+    letter-spacing:0.1rem;
+    margin-top:45px;
+    margin-bottom:60px;
+}
+
+.title {
+    font-family: Pixellari, sans-serif;
+    color:white;
+    font-size:35px;
+    margin-top:15px;
+}

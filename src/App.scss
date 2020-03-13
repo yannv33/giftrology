@@ -1,38 +1,44 @@
+@import './components/font.scss';
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#bouton {
+  text-align: center;
+  margin-top:75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#vHoro{
+  text-decoration: none;
+  color:white;
+  font-family: PlayfairDisplay, serif;
+  letter-spacing:0.1rem;
+  font-size:20px;
+  font-weight:700;
+  display: inline-block;
+  transition: 0.5s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#vHoro:hover{
+  transform:scale(1.05);
 }
 
-.App-link {
-  color: #61dafb;
+#bouton2 {
+  position:absolute;
+  left:15px;
+  bottom:15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#vHome{
+  text-decoration:none;
+  color:white;
+  font-family: PlayfairDisplay, serif;
+  transition:0.5s ease;
+  margin-left:3px;
+  display: inline-block;
+}
+
+#vHome:hover {
+  transform:scale(1.05);
 }
