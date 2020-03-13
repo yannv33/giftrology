@@ -1,3 +1,7 @@
+/!\Le dossier node_modules n'est pas inclus/!\
+/!\L'API Giphy est limitée à 42 appels par jours/!\
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
