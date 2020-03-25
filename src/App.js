@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import Horoscope from './components/Horoscope';
 import Gif from './components/Gif';
 import Form from './components/Form';
 import {
